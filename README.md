@@ -3,14 +3,25 @@
 
 Offical CodeAuth SDK. For more info, check the docs on our [official website](https://docs.codeauth.com).
 
-## Install
-`go get github.com/codeauth2/CodeAuth-GO-SDK`
+## Installation
+Reference CodeAuth-GO-SDK in a Go program with `import`:
+```go
+import (
+	"github.com/codeauth2/CodeAuth-GO-SDK"
+)
+```
+***OR***
+
+Alternatively, you can also explicitly `go get` the package into a project:
+
+```
+go get github.com/codeauth2/CodeAuth-GO-SDK
+```
 
 ## Basic Usage
 
 ### Initialize CodeAuth SDK
 ```go
-import "github.com/codeauth2/CodeAuth-GO-SDK"
 CodeAuth.Initialize("<your project API endpoint>", "<your project ID>")
 ```
 
