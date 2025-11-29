@@ -22,7 +22,7 @@ go get github.com/codeauth2/CodeAuth-GO-SDK
 
 ### Initialize CodeAuth SDK
 ```go
-CodeAuth.Initialize("<your project API endpoint>", "<your project ID>")
+CodeAuth.Initialize("<your project API endpoint>", "<your project ID>", true, 30)
 ```
 
 ### Signin / Email
