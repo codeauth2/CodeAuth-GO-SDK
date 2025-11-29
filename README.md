@@ -1,7 +1,5 @@
 # CodeAuth GO SDK
 ![GitHub go.mod Go version](https://img.shields.io/github/go-mod/go-version/codeauth2/CodeAuth-GO-SDK)
-[![Version](https://img.shields.io/npm/v/codeauth-sdk)](https://www.npmjs.org/package/codeauth-sdk)
-[![Downloads](https://img.shields.io/npm/dm/codeauth-sdk)](https://www.npmjs.com/package/codeauth-sdk)
 
 Offical CodeAuth SDK. For more info, check the docs on our [official website](https://docs.codeauth.com).
 
