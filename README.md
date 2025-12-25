@@ -82,14 +82,14 @@ print(result["signin_url"])
 ### Signin / Social Verify
 This is the next step after the user signs in with their social account. This request checks the authorization code given by the social media company in order to create a session token.
 ```go
-result := CodeAuth.SignInSocialVerify("<social type>", "<authorization code>")
+result := CodeAuth.SignInSocialVerify("<social type>", "<code>")
 switch result["error"]{
 	case "bad_json": 
 	case "project_not_found": 
 	case "bad_ip_address": 
 	case "rate_limit_reached": 
 	case "bad_social_type": 
-	case "bad_authorization_code": 
+	case "bad_code": 
 	case "internal_error": 
 	case "connection_error": //sdk failed to connect to api server
 }
